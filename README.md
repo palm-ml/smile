@@ -10,18 +10,18 @@ conda env create -f environment.yaml
 ## Run the Demo
 
 ```bash
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 0 --an 1 --wan 0 --role 0 --ds CAL500 --p 0.01 --mu 0.01 --rate 0.1
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 0 --an 1 --wan 0 --role 0 --ds Image --p 0.1 --mu 0.9 --rate 0.7
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 0 --an 1 --wan 0 --role 0 --ds scene --p 0.075 --mu 0.3 --rate 0.5
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 0 --an 1 --wan 0 --role 0 --ds yeast --p 0.05 --mu 0.5 --rate 0.1
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 0 --an 1 --wan 0 --role 0 --ds corel5k --p 0.025 --mu 0.1 --rate 0.1
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 0 --an 1 --wan 0 --role 0 --ds rcv1subset1 --p 0.01 --mu 0.01 --rate 0.1
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 1 --an 1 --wan 0 --role 0 --ds Corel16k001 --p 0.001 --mu 0.01
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 1 --an 1 --wan 0 --role 0 --ds delicious --p 0.01 --mu 0.01
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 1 --an 1 --wan 0 --role 0 --ds iaprtc12 --p 0.001 --mu 0.01
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 1 --an 1 --wan 0 --role 0 --ds espgame --p 0.025 --mu 0.01
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 0 --an 1 --wan 0 --role 0 --ds mirflickr --p 0.01 --mu 0.01 --rate 0.1
-python -u train_smile2.py --ep 10 --gpu ${gpu} --loss ries --bias 0 --an 1 --wan 0 --role 0 --ds tmc2007 --p 0.025 --mu 0.1 --rate 0.3
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 0 --ds CAL500 --p 0.01 --mu 0.01 --rate 0.1
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 0 --role 0 --ds Image --p 0.1 --mu 0.9 --rate 0.7
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 0 --ds scene --p 0.075 --mu 0.3 --rate 0.5
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 0 --ds yeast --p 0.05 --mu 0.5 --rate 0.1
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 0 --ds corel5k --p 0.025 --mu 0.1 --rate 0.1
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 0 --ds rcv1subset1 --p 0.01 --mu 0.01 --rate 0.1
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 1 --ds Corel16k001 --p 0.001 --mu 0.01
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 1 --ds delicious --p 0.01 --mu 0.01
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 1 --ds iaprtc12 --p 0.001 --mu 0.01
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 1 --ds espgame --p 0.025 --mu 0.01
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 0 --ds mirflickr --p 0.01 --mu 0.01 --rate 0.1
+python -u train_smile2.py --ep 10 --gpu ${gpu} --bias 0 --ds tmc2007 --p 0.025 --mu 0.1 --rate 0.3
 ```
 
 # Datasets
